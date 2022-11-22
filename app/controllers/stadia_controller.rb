@@ -1,4 +1,4 @@
-class StadiumController < ApplicationController
+class StadiaController < ApplicationController
     def index
         render json: Stadium.all, status: :ok
     end
