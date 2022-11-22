@@ -15,7 +15,7 @@ sec = Conference.create(name: "SEC", image: "https://gray-wvue-prod.cdn.arcpubli
 
 puts "Making Stadiums..."
 
-Stadia.create(stadium_name: "Ben Hill Griffin Stadium", team_name: "Florida Gators",  conference_id: sec, rivalry_id: r1.id,team_image: "https://cdn.shopify.com/s/files/1/0232/4875/collections/Florida-Gators-Logo-67097042772_f9995d19-2b05-40b0-99aa-73cd467aab2a.jpeg?v=1376523189", stadium_image: "https://www.collegegridirons.com/wp-content/uploads/2017/05/ben2012952.jpg")
+Stadia.create(stadium_name: "Ben Hill Griffin Stadium", team_name: "Florida Gators",  conference_id: sec, rivalry_id: r100.id, team_image: "https://cdn.shopify.com/s/files/1/0232/4875/collections/Florida-Gators-Logo-67097042772_f9995d19-2b05-40b0-99aa-73cd467aab2a.jpeg?v=1376523189", stadium_image: "https://www.collegegridirons.com/wp-content/uploads/2017/05/ben2012952.jpg")
 Stadia.create(stadium_name: "Faurot Field", team_name: "Missouri Tigers", conference_id: sec, rivalry_id: r2.id, team_image: "https://1000logos.net/wp-content/uploads/2019/09/0046_Missouri-Tigers-Logo.jpg", stadium_image: "https://www.collegegridirons.com/wp-content/uploads/2017/05/faurot17950.jpg")
 Stadia.create(stadium_name: "Kroger Field", team_name: "Kentucky Wildcats", conference_id: sec, rivalry_id: r3.id, team_image: "https://1000logos.net/wp-content/uploads/2018/01/Kentucky-Logo-500x409.jpg", stadium_image: "https://www.collegegridirons.com/wp-content/uploads/2017/05/kroger.jpeg")
 Stadia.create(stadium_name: "Neyland Stadium", team_name: "Tennessee Volunteers",  conference_id: sec, rivalry_id: r4.id,team_image: "https://1000logos.net/wp-content/uploads/2019/10/0000_Tennessee-Volunteers.jpg", stadium_image: "https://www.collegegridirons.com/wp-content/uploads/2017/05/neyland17952.jpg")
@@ -86,7 +86,7 @@ Stadia.create(stadium_name: "Royal Memorial Stadium", team_name: "Texas Longhorn
 
 puts "Making Rivalries..."
 
-r1 = Rivalry.create(rival_team: "Florida state Seminoles", rival_logo: "https://www.freelogovectors.net/wp-content/uploads/2019/09/fsu-logo-florida-state-seminoles.png")
+r100 = Rivalry.create(rival_team: "Florida state Seminoles", rival_logo: "https://www.freelogovectors.net/wp-content/uploads/2019/09/fsu-logo-florida-state-seminoles.png")
 r2 = Rivalry.create(rival_team: "Arkansas Razorbacks", rival_logo: "https://1000logos.net/wp-content/uploads/2019/08/Arkansas-Razorbacks-Logos.jpg")
 r3 = Rivalry.create(rival_team: "Louisville Cardinals", rival_logo: "https://teamcolorcodes.com/wp-content/uploads/2016/10/Louisville-Cardinals-Logo-JPG.jpg")
 r4 = Rivalry.create(rival_team: "Georgia Bulldogs", rival_logo: "https://1000logos.net/wp-content/uploads/2017/12/Georgia-Bulldogs-Logo.jpg")
