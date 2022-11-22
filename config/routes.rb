@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :stadium, only: [:index, :show]
+  resources :stadia, only: [:index, :show]
   resources :users
   resources :rivalries, only: [:index, :show]
   resources :conferences, only: [:index, :show]

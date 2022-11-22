@@ -1,4 +1,4 @@
-class StadiumSerializer < ActiveModel::Serializer
+class StadiaSerializer < ActiveModel::Serializer
   attributes :id, :team_name, :team_image, :stadium_name, :stadium_image
   has_one :user
   has_one :conference
