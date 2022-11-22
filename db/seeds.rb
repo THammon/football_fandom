@@ -7,11 +7,11 @@ User.destroy_all
 
 puts "Making Conferences..."
 
-acc = Conference.create(name: "ACC", image: "")
-bigTe = Conference.create(name: "BIG 10", image: "")
-bigTw = Conference.create(name: "BIG 12", image: "")
-pac = Conference.create(name: "PAC 12", image: "")
-sec = Conference.create(name: "SEC", image: "")
+acc = Conference.create(name: "ACC", image: "https://content.sportslogos.net/news/2014/05/ACC-F.png")
+bigTe = Conference.create(name: "BIG 10", image: "https://innismaggiore.com/assets/Blogs/pros-and-cons-of-the-new-big-ten-logo-innis-maggiore.jpg")
+bigTw = Conference.create(name: "BIG 12", image: "https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/MOLQeNa7b0ae84ah_OJWLGMC5W4=/1660x934/smart/filters:no_upscale()/cloudfront-us-east-1.images.arcpublishing.com/dmn/YGPI7EJIQ4RXBOPWPHZF42O3Y4.jpg")
+pac = Conference.create(name: "PAC 12", image: "https://www.oregonlive.com/resizer/VlYwd0h7gus748cRHwN4tcLzfUU=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/HNRBFWH7PZC6TK553JVRS7XR6A.png")
+sec = Conference.create(name: "SEC", image: "https://gray-wvue-prod.cdn.arcpublishing.com/resizer/yqBiTLIu-mS26jTBH_TzNv_7c2g=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/F2OZFWLGOJEZFADGKY76SDCBMQ.jpg")
 
 puts "Making Stadiums..."
 

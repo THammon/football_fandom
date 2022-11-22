@@ -81,6 +81,7 @@ test:
 #
 production:
   <<: *default
+  url: <%= ENV['DATABASE_URL'] %>
   database: football_fandom_production
   username: football_fandom
   password: <%= ENV["FOOTBALL_FANDOM_DATABASE_PASSWORD"] %>
